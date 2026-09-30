@@ -8,7 +8,7 @@ The simulations were run for 19 heavy-water reflector thicknesses: 0.3, 0.6, 0.9
 | Folder | Contents |
 |---|---|
 | `input_mcnp/` | 19 MCNP5 input files (`inp_mcnp_<thickness>.i`) |
-| `output_mcnp/` | 19 MCNP5 output files (`inp_mcnp_<thickness>.o`), containing the k<sub>eff</sub> results |
+| `output_mcnp/` | 19 MCNP5 output files (`inp_mcnp_<thickness>.o`), containing the k<sub>eff</sub> results and tally data |
 | `input_serpent/` | 19 Serpent input files (`inpserp_<thickness>.i`) |
 | `output_serpent/` | Serpent outputs for each case: `.out` (run log), `_res.m` (results, including k<sub>eff</sub>), `_det0.m` (detector tallies), `.seed` (random seed) and `_geom4.png` (geometry plot) |
 | `mapas_fluxo_oeste/` | Neutron flux maps of the west detector, one subfolder per thickness (`esp_<thickness>/`), with `flux_West_group1.png` (fast), `flux_West_group2.png` (epithermal) and `flux_West_group3.png` (thermal) |
