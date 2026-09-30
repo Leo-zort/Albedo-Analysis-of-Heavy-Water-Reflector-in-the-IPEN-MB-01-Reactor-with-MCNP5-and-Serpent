@@ -17,6 +17,6 @@ The simulations were run for 19 heavy-water reflector thicknesses: 0.3, 0.6, 0.9
 ### Reproducing the results
 
 1. Pick a thickness and open the matching input in `input_mcnp/` or `input_serpent/`.
-2. Run it with MCNP5 or Serpent (both used 100,000 particles per cycle, 50 active cycles and 12 skipped cycles in the criticality simulation and for MCNP tally. For the flux maps it was used both used 5,000,000 particles per cycle, 50 active cycles and 12 skipped cycles ).
+2. Run it with MCNP5 or Serpent (It was used 100,000 particles per cycle, 50 active cycles and 12 skipped cycles in both criticality simulations and for MCNP tally. For the flux maps, it was used 5,000,000 particles per cycle, 50 active cycles and 12 skipped cycles ).
 3. Compare the k<sub>eff</sub> from the output files (`output_mcnp/*.o` for MCNP, `output_serpent/*_res.m` for Serpent) with Table 4 of the article.
 4. The output files are the source data for the albedo, scattering probability and absorption probability plots in `plots/`.
